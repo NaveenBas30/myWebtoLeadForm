@@ -1,0 +1,75 @@
+<style>
+form {
+  background-color: Lightblue;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form label {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+  width: 100px;
+  font-size: 18px;
+}
+
+form input[type="text"] {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+form input[type="Email"] {
+  display: inline-block;
+  width: 00px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+form input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+</style>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+  <label for="first_name">First Name</label>
+  <input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+  <label for="last_name">Last Name</label>
+  <input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+  <label for="email">Email</label>
+  <input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+  <label for="city">City</label>
+  <input id="city" maxlength="40" name="city" size="20" type="text" /><br>
+
+  <label for="state">State/Province</label>
+  <input id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+  <label for="phone">Phone</label>
+  <input id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+  <label for="country">Country</label>
+  <input id="country" maxlength="40" name="country" size="20" type="text" /><br>
+
+  <input type="submit" name="submit">
+</form>
